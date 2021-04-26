@@ -1,0 +1,12 @@
+.lightMessages {
+  padding: 5% 0;
+  overflow: auto;
+  flex: auto;
+}
+
+.darkMessages {
+  background-color: #253c5a;
+  padding: 5% 0;
+  overflow: auto;
+  flex: auto;
+}

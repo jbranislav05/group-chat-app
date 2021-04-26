@@ -1,0 +1,43 @@
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  color: white;
+  height: 60%;
+  justify-content: space-between;
+}
+
+.activeContainer {
+  margin-top: 10px;
+  overflow: auto;
+  height: 40px;
+  width: 340px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+}
+
+.activeBackground {
+  width: 60%;
+  align-items: center;
+}
+
+.activeItem {
+  display: flex;
+  align-items: center;
+}
+
+.activeContainer img {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.textContainer h1 {
+  margin-bottom: 0px;
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+  .textContainer {
+    display: none;
+  }
+}
